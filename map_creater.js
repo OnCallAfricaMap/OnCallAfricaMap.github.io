@@ -574,7 +574,7 @@ map.on('overlayadd', function (eventLayer) {
   let currentLayer = eventLayer.name; 
   
 
-  if (currentLayer === "Model Package for HF") {
+  if (currentLayer === "Model Packages for Health Facilities") {
     ruralHealthKey.addTo(map);
     map.removeControl(WASHKey);
     console.log("Removing Layers")
@@ -582,7 +582,7 @@ map.on('overlayadd', function (eventLayer) {
       map.removeLayer(washLayer); 
       map.removeLayer(digitalHealthLayer) }, 10);
 
-  } else if (currentLayer === "WASH In HF") {
+  } else if (currentLayer === "WASH In Health Facilities") {
     map.removeControl(ruralHealthKey);
     WASHKey.addTo(map); 
     setTimeout(() => { 
@@ -605,7 +605,7 @@ map.on('overlayadd', function (eventLayer) {
 
 map.on('overlayremove', function(eventLayer) { 
   
-  if (eventLayer.name === "Model Package for HF") {
+  if (eventLayer.name === "Model Packages for Health Facilities") {
     setTimeout(() => {
       map.removeControl(ruralHealthKey);
     }, 10); 
@@ -615,7 +615,7 @@ map.on('overlayremove', function(eventLayer) {
       map.removeControl(intrestingFeaturesKey); 
     }, 10); 
   }
-  else if (eventLayer.name === "WASH In HF") {
+  else if (eventLayer.name === "WASH In Health Facilities") {
     setTimeout(() => {
       map.removeControl(WASHKey); 
     }, 10);  
