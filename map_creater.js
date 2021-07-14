@@ -743,7 +743,7 @@ for (var i=0; i<lengthOfKeys; i++) {
     autoOpen : false,
     modal : true,
     zIndex: 10000, 
-    width: 700,
+    width: '80%',
     buttons: [{
       id : 'okaybuttonSecond', 
       text: 'Okay', 
@@ -768,7 +768,7 @@ $('#firstbuttons').dialog({
     autoOpen: false,
     modal: true,
     zIndex: 10000,
-    width: 700,
+    width: '60%',
     buttons: buttonsTest
 });
 
@@ -782,7 +782,7 @@ $('#instructionsButtonContent').dialog({
   autoOpen: false,
   modal: true,
   zIndex: 100000,
-  width: 1100,
+  width: '80%',
   buttons: [{ 
     id : 'okaybutton', 
     text : "Okay", 
