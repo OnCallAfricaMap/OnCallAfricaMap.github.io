@@ -233,6 +233,23 @@
         color: white;
       }
 
+      #fullscreenButton { 
+        position: relative; 
+        z-index: 100000;
+        background-color: white;
+        border: 2px solid black;
+        border-radius: 5px;
+        top: 230px;
+        left: -290px;
+        height: 40px; 
+        width: 40px;
+        padding: 2px 2px 2px 2px;
+      }
+
+      #fullscreenButton:hover { 
+        border: 3px solid black;
+      }
+
       #firstbuttons {
         position: relative;
         padding: 0px 0px 0px 0px;
@@ -346,6 +363,7 @@
 
     <div id='wrapper'>
       <div id="map">
+
         <button class='buttons' id='deffButton'>Definitions</button>
         <button class='buttons' id='instructionsButton'>Read Me</button>
         <div id='firstbuttons'><font style="font-size:40px; font-weight:bolder; text-decoration: underline;">Definitions</font></div>
@@ -356,6 +374,7 @@
         This map was made with assistance from the team at <a href="https://www.gis-e.org/" target="_blank"> GIS-E</a>.
       </font>
       </div>
+      <button class="buttons" id='fullscreenButton'><a href="https://oncallafricamap.github.io" target="_blank"><img style="width: 30px; height: 30px;" src=Icons/fullScreenIcons.png></a></button>
       </div>
     </div>
     
