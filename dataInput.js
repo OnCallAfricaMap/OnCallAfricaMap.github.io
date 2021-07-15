@@ -27,11 +27,11 @@ digitalHealthURL = null;
 KanyangaStatsData = {
     "Kanyanga RHP" : {
         "Population" : 24695, 
-        "No Nurses" : 2,
-        "No COs" : 1,
-        "No CHA" : 1, 
-        "No EHT" : 1,
-        "No beds" : 5,
+        "No. Nurses" : 2,
+        "No. COs" : 1,
+        "No. CHA" : 1, 
+        "No. EHT" : 1,
+        "No. beds" : 5,
         "Solar Power" : "Yes (very limited)", 
         "Running Water" : "No", 
         "Nearest Water Source" : "Borehole (435m)", 
