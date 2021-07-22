@@ -97,7 +97,7 @@ ChalimongelaStatsData = {
         "Nearest Water Source" : "Borehole (42m)", 
         "Most Common Illnesses" : "URTI, Diarrhoea, Musculoskeletal, Dental", 
     },
-  "Chilobe" : {
+  "Chliobe" : {
       "No CHWs" : 1,
       "Nearest Water Source" : "Borehole (190m)"
   }, 
@@ -108,10 +108,10 @@ ChalimongelaStatsData = {
   "Pukuma" : {
      "Nearest Water Source" : "Borehole - nearly dry(200m)"
   },
-  "Shilouba" : {
+  "Shioulba" : {
      "Nearest Water Source" : "Borehole (85m)"
   },
-  "Kabaule" : {
+  "Kabalue" : {
      "Nearest Water Source" : "Borehole (766m)"
   }  
 }
