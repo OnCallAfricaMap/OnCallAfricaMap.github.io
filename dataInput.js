@@ -108,10 +108,10 @@ ChalimongelaStatsData = {
   "Pukuma" : {
      "Nearest Water Source" : "Borehole - nearly dry(200m)"
   },
-  "Shioulba" : {
+  "Chilubwa" : {
      "Nearest Water Source" : "Borehole (85m)"
   },
-  "Kabalue" : {
+  "Kalubale" : {
      "Nearest Water Source" : "Borehole (766m)"
   }  
 }
