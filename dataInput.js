@@ -111,7 +111,7 @@ ChalimongelaStatsData = {
   "Chilubwa" : {
      "Nearest Water Source" : "Borehole (85m)"
   },
-  "Kalubale" : {
+  "Kabaule" : {
      "Nearest Water Source" : "Borehole (766m)"
   }  
 }
