@@ -32,7 +32,7 @@ KanyangaStatsData = {
         "No. CHA" : 1, 
         "No. EHT" : 1,
         "No. beds" : 5,
-        "Solar Power" : "Yes (very limited)", 
+        "Solar Power" : "Yes (Vaccine Fridge Only)", 
         "Running Water" : "No", 
         "Nearest Water Source" : "Borehole (435m)", 
         "Most Common Illnesses" : "URTI, Diarrhoea, Musculoskeletal, Digestive illness, Dental", 
@@ -83,6 +83,39 @@ KanyangaStatsData = {
         "Nearest Water Source" : "River (577m)"
     }
 }
+
+ChalimongelaStatsData = {
+  "Chalimongela RHP" : { 
+        "Population" : 7568, 
+        "No. Nurses" : 1,
+        "No. COs" : 0,
+        "No. CHA" : 1, 
+        "No. EHT" : 0,
+        "No. beds" : 5,
+        "Solar Power" : "Yes (Vaccine Fridge Only)", 
+        "Running Water" : "No", 
+        "Nearest Water Source" : "Borehole (42m)", 
+        "Most Common Illnesses" : "URTI, Diarrhoea, Musculoskeletal, Dental", 
+    },
+  "Chilobe" : {
+      "No CHWs" : 1,
+      "Nearest Water Source" : "Borehole (190m)"
+  }, 
+  "Chikuyu" : {
+    "No CHWs" : 3,
+    "Nearest Water Source" : "Borehole (1.4km)"
+  },
+  "Pukuma" : {
+     "Nearest Water Source" : "Borehole - nearly dry(200m)"
+  },
+  "Shilouba" : {
+     "Nearest Water Source" : "Borehole (85m)"
+  } 
+  "Kabaule" : {
+     "Nearest Water Source" : "Borehole (766m)"
+  }  
+}
+    
 
 KanyangaData = {
     "points" : "./kanyanga/kanyangaOutreachPosts.gpx",
