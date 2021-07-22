@@ -107,7 +107,8 @@ ChalimongelaData = {
 
 communityData = {
     "Kanyanga" : KanyangaData,
-    "Katapazi" : KatapaziData
+    "Katapazi" : KatapaziData,
+    "Chalimongela" : ChalimongelaData
 }
 
 // WASH DISTRICT DATA 
