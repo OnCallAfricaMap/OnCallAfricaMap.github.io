@@ -17,7 +17,7 @@ digitalHealthdistricts = {"Livingstone" : 2021,
 
 
 // ######## the URL where you will be taken if filled in districted is clicked #########
-washLinkURL = "https://www.wateraid.org/us/"; 
+washLinkURL = null; 
 healthFacalityURL = null; 
 digitalHealthURL = null; 
 
@@ -99,8 +99,8 @@ KatapaziData = {
 }
 
 ChalimongelaData = {
-    "points" : "Chalimongela/ChalimongelaPoints.gpx",
-    "routes" : "Chalimongela/ChalimongelaRoutes.gpx",
+    "points" : "./Chalimongela/ChalimongelaPoints.gpx",
+    "routes" : "./Chalimongela/ChalimongelaRoutes.gpx",
     "stats" : null, 
     "URL" : "https://www.oncallafrica.org/chalimongela-rural-health-post/"
 }
