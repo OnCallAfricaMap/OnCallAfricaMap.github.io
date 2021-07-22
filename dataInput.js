@@ -99,8 +99,8 @@ KatapaziData = {
 }
 
 ChalimongelaData = {
-    "points" : "./Chalimongela/ChalimongelaPoints.gpx",
-    "routes" : "./Chalimongela/ChalimongelaRoutes.gpx",
+    "points" : "./chalimongela/chalimongelaPoints.gpx",
+    "routes" : "./chalimongela/chalimongelaRoutes.gpx",
     "stats" : null, 
     "URL" : "https://www.oncallafrica.org/chalimongela-rural-health-post/"
 }
