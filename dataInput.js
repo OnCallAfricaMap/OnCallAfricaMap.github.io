@@ -110,7 +110,7 @@ ChalimongelaStatsData = {
   },
   "Shilouba" : {
      "Nearest Water Source" : "Borehole (85m)"
-  } 
+  },
   "Kabaule" : {
      "Nearest Water Source" : "Borehole (766m)"
   }  
@@ -134,7 +134,7 @@ KatapaziData = {
 ChalimongelaData = {
     "points" : "./chalimongela/chalimongelaPoints.gpx",
     "routes" : "./chalimongela/chalimongelaRoutes.gpx",
-    "stats" : null, 
+    "stats" : ChalimongelaStatsData, 
     "URL" : "https://www.oncallafrica.org/chalimongela-rural-health-post/"
 }
 
