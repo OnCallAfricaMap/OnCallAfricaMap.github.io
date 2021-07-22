@@ -98,6 +98,13 @@ KatapaziData = {
     "URL" : "https://www.oncallafrica.org/katapazi-rural-health-centre"
 }
 
+ChalimongelaData = {
+    "points" : "Chalimongela/ChalimongelaPoints.gpx",
+    "routes" : "Chalimongela/ChalimongelaRoutes.gpx",
+    "stats" : null, 
+    "URL" : "https://www.oncallafrica.org/chalimongela-rural-health-post/"
+}
+
 communityData = {
     "Kanyanga" : KanyangaData,
     "Katapazi" : KatapaziData
