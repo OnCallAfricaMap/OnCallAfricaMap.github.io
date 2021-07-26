@@ -544,7 +544,7 @@ const markersGrouped = [
     expanded : true, 
     exclusive : false, 
     layers : {
-      "Model Packages for Health Facilities" : healthFacalityLayer,
+      "Pilot Project" : healthFacalityLayer,
       "WASH In Health Facilities" : washLayer,
       "Digital Health" : digitalHealthLayer, 
     }
@@ -573,7 +573,7 @@ map.on('overlayadd', function (eventLayer) {
   let currentLayer = eventLayer.name; 
   
 
-  if (currentLayer === "Model Packages for Health Facilities") {
+  if (currentLayer === "Pilot Project") {
     ruralHealthKey.addTo(map);
     map.removeControl(WASHKey);
     console.log("Removing Layers")
@@ -624,7 +624,7 @@ map.on('overlayadd', function (eventLayer) {
 
 map.on('overlayremove', function(eventLayer) { 
   
-  if (eventLayer.name === "Model Packages for Health Facilities") {
+  if (eventLayer.name === "Pilot Project") {
     setTimeout(() => {
       map.removeControl(ruralHealthKey);
     }, 10); 
