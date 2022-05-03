@@ -2,24 +2,23 @@
 // This is where all data that is displayed on the map is colleted together to then be sent to the map creator that formats it into the map. 
 
 // ######## DISTRICT FOR WATERAID R2R WASH PROGRAM ##########
-washDistricts = {"Kazungula": 2021, 
-                 "Mwandi" : 2021, 
-                 "Sesheke": 2021}; 
+washDistricts = {"Kazungula": 2022, 
+                 "Mwandi" : 2022, 
+                 "Sesheke": 2022}; 
 
 // ######## DISTRICT FOR HEALTH FACALITY IMPROVEMENT PROGRAM ##########
-healthFacalityDistricts = {"Zimba" : 2021, 
-                           "Kazungula" : 2021}
+healthFacalityDistricts = {"Zimba" : 2022, 
+                           "Kazungula" : 2022}
 
-// ######## DISTRICT FOR DIGITAL HEALTH PROGRAM ##########
-digitalHealthdistricts = {"Livingstone" : 2021, 
-                          "Kazungula" : 2021}
+// ######## DISTRICT FOR SOLAR PROGRAMME ##########
+solarDistricts = {"Kazungula" : 2022}
 
 
 
 // ######## the URL where you will be taken if filled in districted is clicked #########
 washLinkURL = null; 
 healthFacalityURL = null; 
-digitalHealthURL = null; 
+solarDistrictsURL = null; 
 
 
 // HEALTH FACALITY DATA 
