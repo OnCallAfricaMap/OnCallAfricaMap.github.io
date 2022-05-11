@@ -11,7 +11,7 @@ healthFacalityDistricts = {"Zimba" : 2022,
                            "Kazungula" : 2022}
 
 // ######## DISTRICT FOR SOLAR PROGRAMME ##########
-digitalHealthDistricts = {"Kazungula" : 2022}
+digitalHealthdistricts = {"Kazungula" : 2022}
 
 
 
