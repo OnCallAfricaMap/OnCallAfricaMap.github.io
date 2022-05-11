@@ -591,7 +591,7 @@ map.on('overlayadd', function (eventLayer) {
       map.removeLayer(digitalHealthLayer)
       map.removeLayer(southernProvinces)
       map.removeLayer(westernProvience) }, 10); 
-  } else if (currentLayer === "Digital Health") {
+  } else if (currentLayer === "Solar Projects") {
     map.removeControl(ruralHealthKey); 
     map.removeControl(WASHKey);
     setTimeout(() => { 
