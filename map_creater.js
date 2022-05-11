@@ -546,7 +546,7 @@ const markersGrouped = [
     layers : {
       "Pilot Project" : healthFacalityLayer,
       "WASH In Health Facilities" : washLayer,
-      "Digital Health" : digitalHealthLayer, 
+      "Solar Projects" : digitalHealthLayer, 
     }
   }
 ]
