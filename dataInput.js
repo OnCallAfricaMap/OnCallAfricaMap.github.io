@@ -11,14 +11,14 @@ healthFacalityDistricts = {"Zimba" : 2022,
                            "Kazungula" : 2022}
 
 // ######## DISTRICT FOR SOLAR PROGRAMME ##########
-solarDistricts = {"Kazungula" : 2022}
+digitalHealthDistricts = {"Kazungula" : 2022}
 
 
 
 // ######## the URL where you will be taken if filled in districted is clicked #########
 washLinkURL = null; 
 healthFacalityURL = null; 
-solarDistrictsURL = null; 
+digitalHealthURL = null; 
 
 
 // HEALTH FACALITY DATA 
